@@ -1,6 +1,10 @@
 var topic = "HTML";
 
-if (topic === 'HTML') {
+var topics = ['HTML', 'CSS', 'GIT', 'JavaScript'];
+for(var x = 0; x < topics.length; x++)
+ console.log(topics[x]);
+ 
+ /*
   console.log("Let's study HTML!");
 } else if (topic === 'CSS') {
   console.log("Let's study CSS!");
@@ -11,3 +15,8 @@ if (topic === 'HTML') {
 } else {
   console.log('Please try again!');
 }
+var shapes = ["triangle", "square", "pentagon", "circle"];
+for(var x = 0; x < shapes.length; x++) {
+ console.log(shapes[x]);
+}
+*/
